@@ -1,0 +1,655 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+   {
+   	"path": "pages/login/guide",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/users/invitation/zhaoshang",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/users/mysource/source",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/users/invitation/zs-people",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/users/invitation/zs-people-j",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/users/invitation/zs-classification",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/medium/index",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/medium/adduser",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/medium/xyCard",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/medium/addIdCard",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/medium/showNewPlan",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/medium/usershow",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/medium/addXyCard",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/medium/havePlan",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/medium/sendcodes",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   
+   {
+   	"path": "pages/medium/changeCard",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   
+   {
+   	"path": "pages/medium/historyList",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+   {
+   	"path": "pages/medium/lsplan",
+   	"style": {
+   		
+   		"enablePullDownRefresh": false,
+   		"navigationStyle": "custom"
+   	}
+   },
+	{
+		"path": "pages/users/revenueRule",
+		"style": {
+			
+			"enablePullDownRefresh": false,
+			"navigationStyle": "custom"
+		}
+   },
+   {
+   		"path": "pages/users/guyuwm",
+   		"style": {
+   			
+   			"enablePullDownRefresh": false
+			
+   			
+   		}
+   },
+   {
+   		"path": "pages/money/repayment/sendcodes",
+   		"style": {
+   		
+   			"enablePullDownRefresh": false,
+   			"navigationStyle": "custom"
+   		}
+   },
+   {
+   		"path": "pages/vipKet/vip",
+   		"style":   {
+                "navigationBarTitleText": "会员中心",
+                "enablePullDownRefresh": false
+            }
+   },
+   {
+   		"path": "pages/vipKet/activate",
+   		"style": {
+   			
+   			"enablePullDownRefresh": false,
+   			"navigationStyle": "custom",
+			"onReachBottonDistance":400 
+   		}
+   },
+   {
+   		"path": "pages/vipKet/keyRecords",
+   		"style": {
+   			
+   			"enablePullDownRefresh": false,
+   			"navigationStyle": "custom",
+			"onReachBottonDistance":400 
+   		}
+   },
+   {
+   		"path": "pages/users/share",
+   		"style": {
+   			"enablePullDownRefresh": false,
+   			"navigationStyle": "custom"
+   			
+   		}
+   },
+   {
+   		"path": "pages/users/huodong",
+   		"style": {
+   			
+   			"enablePullDownRefresh": false,
+			"navigationStyle": "custom"
+   			
+   		}
+   },
+   {
+     	"path": "pages/index/veb",
+     	"style": {
+     		// "navigationBarTitleText": ""
+     		"navigationStyle": "custom"
+     	}
+     },
+	 {
+	 	"path": "pages/login/meset",
+	 	"style": {
+	 		
+	 		"navigationStyle": "custom"
+	 	}
+	 },
+	 {
+	 	"path": "pages/users/myTeam",
+	 	"style": {
+	 	
+	 		"navigationStyle": "custom",
+			"onReachBottonDistance":400 
+	 	}
+	 },
+	 {
+	 	"path": "pages/users/kef",
+	 	"style": {
+	 		
+	 		"navigationStyle": "custom"
+	 	}
+	 },
+	 {
+	 	"path": "pages/login/modifiesLogin",
+	 	"style": {
+	 	
+	 		"navigationStyle": "custom"
+	 	}
+	 },
+	 {
+	 	"path": "pages/login/modifiesPay",
+	 	"style": {
+	 		
+	 		"navigationStyle": "custom"
+	 	}
+	 },
+	 {
+	 	"path": "pages/users/zssy/zssy",
+	 	"style": {
+	 		
+	 		"navigationStyle": "custom",
+			"onReachBottonDistance":400 
+	 	}
+	 },
+	 {
+	 	"path": "pages/users/zssy/guanlifr",
+	 	"style": {
+	 		
+	 		"navigationStyle": "custom",
+			"onReachBottonDistance":400 
+	 	}
+	 },
+	 {
+	 	"path": "pages/users/earningslist",
+	 	"style": {
+	 	
+	 		"navigationStyle": "custom",
+			"onReachBottonDistance":200 
+	 	}
+	 },
+	 {
+	 	"path": "pages/users/usershow",
+	 	"style": {
+	 		
+	 		"navigationStyle": "custom"
+	 	}
+	 },
+	 {
+       	"path": "pages/index/index",
+       	"style": {
+       		"navigationBarTitleText": "",
+       		"navigationStyle": "custom"
+       	}
+       },
+	   {
+            "path" : "pages/money/repayment/drawPlan",
+            "style" :                                                                                    
+            {
+                
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        },
+		{
+		    "path" : "pages/money/income/txMoney",
+		    "style" :                                                                                    
+		    {
+		       
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/money/income/zfbadd",
+		    "style" :                                                                                    
+		    {
+		        
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		},
+		
+		{
+			"path": "pages/card/modiflecxcard",
+			"style": {
+				
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		
+		},
+		{
+		    "path" : "pages/index/cardBag",
+		    "style" :                                                                                    
+		    {
+		       
+		        "enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/money/repayment/newPlan",
+		    "style" :                                                                                    
+		    {
+		        
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/card/modifiesxy_card",
+		    "style" :                                                                                    
+		    {
+		       
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		},
+		{
+		    "path" : "pages/card/debit_add",
+		    "style" :                                                                                    
+		    {
+		      
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		},
+	
+		{
+			"path": "pages/authentication/authentication",
+			"style": {
+				
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		
+		},
+
+
+
+		{
+			"path": "pages/login/register",
+			"style": {
+			
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		},  {
+			"path": "pages/index/mine",
+			"style": {
+				
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+
+		}
+
+        ,{
+            "path" : "pages/index/income",
+            "style" :                                                                                    
+            {
+               
+                "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"onReachBottonDistance":200 
+            }
+            
+        }
+        ,{
+            "path" : "pages/card/card_add",
+            "style" :                                                                                    
+            {
+                
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/money/getMoneyOnline",
+            "style" :                                                                                    
+            {
+           
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }  ,{
+            "path" : "pages/money/getMoneyOnline/bindCard",
+            "style" :                                                                                    
+            {
+           
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/money/repayment",
+            "style" :                                                                                    
+            {
+                
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/money/getMoneyOnline/selectPayWay",
+            "style" :                                                                                    
+            {
+                
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/money/getMoneyOnline/limitsDetail",
+            "style" :                                                                                    
+            {
+               
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/money/getMoneyOnline/confirmPay",
+            "style" :                                                                                    
+            {
+               
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/money/getMoneyOnline/creditCardList",
+            "style" :                                                                                    
+            {
+                
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/money/getMoneyOnline/depositCard",
+            "style" :                                                                                    
+            {
+               
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/money/getMoneyOnline/tradeHistoryList",
+            "style" :                                                                                    
+            {
+                
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/money/getMoneyOnline/tradeDetail",
+            "style" :                                                                                    
+            {
+                
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/money/repayment/historyList",
+            "style" :                                                                                    
+            {
+                
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+		,{
+		    "path" : "pages/users/hellp",
+		    "style" :                                                                                    
+		    {
+		        
+		        "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+		    }
+		    
+		}
+		
+		,{
+		    "path" : "pages/users/hellpVideo",
+		    "style" :                                                                                    
+		    {
+		       
+		        "enablePullDownRefresh": false
+				
+		    }
+		    
+		}
+
+        ,{
+            "path" : "pages/money/repayment/planDetail",
+            "style" :                                                                                    
+            {
+                
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/money/repayment/historyDetail",
+            "style" :                                                                                    
+            {
+                
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/money/repayment/changePlan",
+            "style" :                                                                                    
+            {
+               
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/money/repayment/signConfirm",
+            "style" :                                                                                    
+            {
+                
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/users/stopPayment/stopPayment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "停息挂账",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#808080",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/ico/index.png",
+				"selectedIconPath": "static/ico/index-a.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/index/cardBag",
+				"iconPath": "static/ico/car.png",
+				"selectedIconPath": "static/ico/car-a.png",
+				"text": "卡包"
+			},
+			{
+				"pagePath": "pages/index/income",
+				"iconPath": "static/ico/shouyi.png",
+				"selectedIconPath": "static/ico/shouyi-a.png",
+				"text": "收益"
+			},
+			{
+				"pagePath": "pages/index/mine",
+				"iconPath": "static/ico/mine.png",
+				"selectedIconPath": "static/ico/mine-a.png",
+				"text": "我的"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "米兔智能社区",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

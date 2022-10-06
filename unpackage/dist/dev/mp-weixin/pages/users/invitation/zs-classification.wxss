@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.bg-title {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.tui-v {
+  width: 690rpx;
+  height: 115rpx;
+  box-shadow: 0px 4rpx 6rpx 0rpx rgba(28, 28, 28, 0.2);
+  margin-top: 30rpx;
+  margin-left: 30rpx;
+  display: flex;
+  font-size: 24rpx;
+  align-items: center;
+}
+.tui-v .tui-v1 {
+  width: 150rpx;
+  height: 115rpx;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tui-v .tui-v2 {
+  width: 220rpx;
+}
+.tui-v .tui-v2 view {
+  display: flex;
+  align-items: center;
+}
+.tui-v .tui-v2 text {
+  color: #46c7a9;
+}
+.tui-v .tui-v3 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-top: 5rpx solid #46c7a9;
+  border-right: 5rpx solid #46c7a9;
+  width: 20rpx;
+  height: 20rpx;
+  margin-left: 30rpx;
+}
+.header {
+  width: 100%;
+  position: relative;
+  padding: 30rpx;
+  padding-top: calc(25px + 30rpx);
+  min-height: 100rpx;
+  height: 277rpx;
+  background-color: #46c7a9;
+}
+.header .header-title-common {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+.header .header-title-common ._b {
+  font-size: 48rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: white;
+}
+.header .header-title-common ._p:first-child {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-bottom: 5rpx solid white;
+  border-left: 5rpx solid white;
+  width: 20rpx;
+  height: 20rpx;
+  position: absolute;
+  left: 0;
+}
+.header .header-title-common ._p:last-child {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #F7CF9E;
+  position: absolute;
+  right: 0;
+}
+.header .income-options {
+  display: flex;
+  margin-top: 10rpx;
+  margin-left: 10%;
+  justify-content: space-between;
+  color: #46c7a9;
+  height: 150rpx;
+  width: 80%;
+}
+.header .income-options picker {
+  margin-top: 40rpx;
+}
+.header .income-options ._h4 {
+  display: flex;
+  align-items: center;
+}
+.header .income-options ._h4 ._p {
+  margin-top: 10rpx;
+  display: flex;
+  justify-content: center;
+  width: 110rpx;
+}
+.header .income-options ._h4 view {
+  width: 20rpx;
+  height: 20rpx;
+  margin-left: 10rpx;
+  display: flex;
+  justify-content: center;
+}
+

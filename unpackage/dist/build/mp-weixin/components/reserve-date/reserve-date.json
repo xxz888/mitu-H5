@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-icon": "/components/reserve-date/uni-icon"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "yz-qr": "/components/yz-qr/yz-qr"
+  }
+}

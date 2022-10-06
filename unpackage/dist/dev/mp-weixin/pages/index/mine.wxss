@@ -1,0 +1,309 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.bg-title {
+  width: 100%;
+  height: 360rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.header {
+  width: 100%;
+  height: 400rpx;
+  position: relative;
+  padding: 30rpx;
+  padding-top: calc(25px + 30rpx);
+  min-height: 100rpx;
+  color: white;
+  background-color: #46c7a9;
+  margin-bottom: 180rpx;
+}
+.header .userInfo-box {
+  display: flex;
+  align-items: center;
+}
+.header .userInfo-box ._h1 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: white;
+}
+.header .userInfo-box ._h2 {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: white;
+}
+.header .userInfo-box ._h3 {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: white;
+}
+.header .userInfo-box image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  margin-right: 20rpx;
+}
+.header .userInfo-box ._h1 {
+  display: flex;
+}
+.header .userInfo-box ._h1 image {
+  width: 30rpx;
+  height: 30rpx;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rpx;
+}
+.header .userInfo-box ._h1 ._a {
+  height: 40rpx;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rpx;
+  background-color: white;
+  border-radius: 20rpx;
+  color: #46c7a9;
+  padding-left: 10rpx;
+  padding-top: 5rpx;
+  padding-right: 10rpx;
+  padding-bottom: 10rpx;
+}
+.header .userInfo-box ._h4 {
+  margin-left: auto;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.header .userInfo-box ._h4 ._p:last-child {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-right: 5rpx solid white;
+  border-top: 5rpx solid white;
+  width: 15rpx;
+  height: 15rpx;
+}
+._ul {
+  position: absolute;
+  left: 30rpx;
+  bottom: -115rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 690rpx;
+  height: 230rpx;
+  background: #FFFFFF;
+  box-shadow: 0px 4rpx 9rpx 1rpx rgba(31, 31, 31, 0.15);
+  border-radius: 10rpx;
+}
+._ul image {
+  width: 57rpx;
+}
+._ul ._li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+._ul ._li ._p {
+  margin-top: 10rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 800;
+  color: #333333;
+}
+.fn-box {
+  width: 690rpx;
+  margin: 0 auto;
+  margin-top: 40rpx;
+  background: #FFFFFF;
+  box-shadow: 0px 4rpx 9rpx 1rpx rgba(31, 31, 31, 0.15);
+  border-radius: 10rpx;
+}
+.fn-box .fn-item {
+  display: flex;
+  align-items: center;
+  padding: 20rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 46rpx;
+}
+.fn-box .fn-item image {
+  width: 30rpx;
+  margin-right: 20rpx;
+}
+.fn-box .fn-item ._p:last-child {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-right: 5rpx solid #333;
+  border-top: 5rpx solid #333;
+  width: 15rpx;
+  height: 15rpx;
+  margin-left: auto;
+}
+.container .modalimage {
+  width: 50rpx;
+  height: 50rpx;
+}
+.container .modal-box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .modal-content {
+  width: 600rpx;
+  height: 600rpx;
+  border-radius: 10rpx;
+  position: relative;
+}
+.container .modal-content .bg {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+.container .modal-content ._h1 {
+  position: relative;
+  z-index: 1;
+  font-size: 43rpx;
+  font-family: Source Han Sans CN;
+  font-weight: 500;
+  color: #FDFAF9;
+  height: 200rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 3px 3px rgba(46, 46, 46, 0.48);
+}
+.container .modal-content ._h4 {
+  position: relative;
+  z-index: 1;
+  font-size: 43rpx;
+  font-family: Source Han Sans CN;
+  font-weight: 500;
+  color: #FDFAF9;
+  height: 100rpx;
+  display: flex;
+  margin: 55px 0 10px;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0px 3px 3px rgba(46, 46, 46, 0.48);
+}
+.container .modal-content .confirm-box {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 500rpx;
+  height: 350rpx;
+  margin: 10rpx auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .modal-content .confirm-box ._a {
+  width: 80%;
+  height: 280rpx;
+  font-size: 36rpx;
+  padding-top: 20rpx;
+}
+.container .modal-content .confirm-box ._a ._p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .modal-content .confirm-box ._a ._p view {
+  display: flex;
+  width: 50%;
+}
+.container .modal-content .confirm-box image {
+  position: absolute;
+  width: 100rpx;
+  height: 100rpx;
+  top: -30rpx;
+}
+.container .modal-content .confirm-box ._h2 {
+  color: #666666;
+  margin: 120rpx auto 90rpx;
+  font-size: 36rpx;
+  font-weight: normal;
+}
+.container .modal-content .confirm-box view {
+  display: flex;
+}
+.container .modal-content .confirm-box view view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f7f7;
+  color: #F0AD4E;
+  width: 140rpx;
+  height: 70rpx;
+  margin: 120rpx auto 90rpx;
+  font-size: 18rpx;
+}
+.container .modal-content .confirm-box view input {
+  color: #666666;
+  margin: 120rpx auto 90rpx;
+  font-size: 30rpx;
+  font-weight: normal;
+  width: 250rpx;
+  padding: 0 20rpx;
+  height: 70rpx;
+  box-sizing: border-box;
+  background-color: #f7f7f7;
+}
+.container .modal-content .confirm-box ._h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .modal-content .confirm-box ._h3 ._p {
+  font-size: 27rpx;
+  color: #333;
+  background: #F5F3F3;
+  width: 200rpx;
+  border-radius: 5rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
+.container .modal-content .confirm-box ._h3 ._p:last-child {
+  background-color: #46c7a9;
+  margin-left: 50rpx;
+}
+

@@ -1,0 +1,1 @@
+<view class="container"><view class="header"><image class="bg-title" src="/static/images/sy-bg@2x.png"></image><view class="header-title-common"><view data-event-opts="{{[['tap',[['back',['$event']]]]]}}" bindtap="__e" class="_p"></view><view class="_b">历史详情</view></view></view></view>

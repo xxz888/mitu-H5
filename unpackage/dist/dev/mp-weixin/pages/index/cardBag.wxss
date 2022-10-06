@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.bg-title {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.header {
+  width: 100%;
+  position: relative;
+  padding: 30rpx;
+  padding-top: calc(25px + 30rpx);
+  min-height: 100rpx;
+  background-color: #46c7a9;
+}
+.header ._h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 48rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: white;
+  margin: 30rpx 0 60rpx 0;
+}
+.header ._h2 {
+  display: flex;
+  align-items: center;
+  width: 690rpx;
+  height: 78rpx;
+  margin: 0 auto;
+  border: 1rpx solid white;
+  border-radius: 15rpx;
+  overflow: hidden;
+}
+.header ._h2 ._p {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 78rpx;
+  background-color: none;
+  color: white;
+  font-weight: bold !important;
+  font-size: 27rpx !important;
+  font-family: PingFang SC !important;
+}
+.header ._h2 .active {
+  background: white !important;
+  color: black;
+}
+._li {
+  box-sizing: border-box;
+  width: 690rpx;
+  height: 285rpx;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  padding: 0 40rpx;
+}
+._li .bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+}
+._li .card-btm-part {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: white;
+  height: 75rpx;
+}
+._li .card-btm-part ._p {
+  font-size: 20rpx;
+}
+._li .card-top-part {
+  position: relative;
+  height: 206rpx;
+  width: 100%;
+  z-index: 4;
+  color: white;
+  border-bottom: 1rpx solid white;
+}
+._li .card-top-part .logo-icon {
+  width: 55rpx;
+  height: 55rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 50rpx;
+}
+._li .card-top-part .logo {
+  width: 86rpx;
+  position: absolute;
+  top: 30rpx;
+  right: 0;
+}
+._li .card-top-part ._h1 {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  position: absolute;
+  left: 176rpx;
+  top: 34rpx;
+}
+._li .card-top-part ._h2 {
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: white;
+  position: absolute;
+  left: 176rpx;
+  top: 92rpx;
+  display: flex;
+  align-items: center;
+}
+._li .card-top-part ._h2 text {
+  display: block;
+  font-size: 22rpx;
+  padding-left: 30rpx;
+}
+._li .card-top-part ._h3 {
+  position: absolute;
+  top: 30rpx;
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: white;
+  right: 0;
+}
+._li .card-top-part ._b {
+  display: flex;
+  align-items: center;
+  border: 2rpx solid white;
+  width: 100rpx;
+  height: 30rpx;
+  border-radius: 10rpx;
+  position: absolute;
+  top: 100rpx;
+  right: 0;
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: white;
+  justify-content: center;
+}
+._li .card-top-part ._b image {
+  width: 20rpx;
+  margin-right: 10rpx;
+}
+._li .card-top-part .del-btn {
+  top: 150rpx;
+  right: 0;
+}
+._li .card-top-part ._a {
+  position: absolute;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: white;
+  left: 0;
+  bottom: 10rpx;
+}
+.btn {
+  height: 86rpx;
+  background-color: #46c7a9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  left: 0;
+}
+.btn image {
+  margin-right: 20rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+.empty {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  padding-top: 600rpx;
+  margin-left: 275rpx;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+}
+.empty image {
+  width: 200rpx;
+}
+.empty .tits {
+  width: 200rpx;
+  color: #C0C0C0;
+  display: flex;
+  justify-content: center;
+}
+

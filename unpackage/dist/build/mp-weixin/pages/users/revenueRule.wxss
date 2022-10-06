@@ -1,0 +1,1 @@
+.head image{position:absolute;width:750rpx;height:8390rpx;z-index:-1}.v1{position:absolute;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-bottom:5rpx solid #d4c09d;border-left:5rpx solid #d4c09d;width:30rpx;height:30rpx;margin-top:80rpx;margin-left:50rpx;position:absolute;left:0}.bocun{z-index:1}

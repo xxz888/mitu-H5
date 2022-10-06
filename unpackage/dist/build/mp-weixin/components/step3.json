@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "pick-regions": "/components/pick-regions/pick-regions",
+    "w-compress": "/components/w-compress/w-compress"
+  }
+}

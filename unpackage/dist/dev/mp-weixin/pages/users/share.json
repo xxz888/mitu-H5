@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "yz-qr": "/components/yz-qr/yz-qr"
+  }
+}

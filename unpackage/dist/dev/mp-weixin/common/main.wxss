@@ -1,0 +1,81 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+._h1,
+	._h2,
+	._h3,
+	._h4,
+	._h5,
+	._h6,
+	._ul,
+	._ol,
+	._li,
+	view,
+	page,
+	text,
+	swiper,
+	swiper-item,
+	image,
+	navigator,
+	textarea,
+	input {
+		padding: 0;
+		margin: 0;
+		box-sizing: border-box;
+		font-weight: normal;
+		font-size: 28rpx;
+}
+._ul {
+		list-style: none;
+		/*清除列表默认样式*/
+}
+image {
+		display: flex;
+		flex-shrink: 0;
+		width: 50rpx;
+		height: 50rpx;
+}
+.container {
+		min-height: 100vh;
+}
+	/* 超过文字省略号
+ */
+.text-overflow-1 {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 1;
+		overflow: hidden;
+}
+.text-overflow-2 {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+		overflow: hidden;
+}
+.text-overflow-3 {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 3;
+		overflow: hidden;
+}
+
+
+.compress__canvas {
+	position: absolute;
+	left: 10000px;
+	visibility: hidden;
+	height: 0;
+	overflow: hidden;
+}
+

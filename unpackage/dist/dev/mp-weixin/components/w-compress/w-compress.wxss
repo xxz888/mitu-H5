@@ -1,0 +1,9 @@
+
+.compress__canvas {
+	position: absolute;
+	left: 10000px;
+	visibility: hidden;
+	height: 0;
+	overflow: hidden;
+}
+

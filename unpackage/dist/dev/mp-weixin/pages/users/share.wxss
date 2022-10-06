@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.canvas {
+  position: absolute;
+  left: 99999px;
+}
+view {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5vw;
+  overflow: hidden;
+  min-height: 100vh;
+  background-color: #46c7a9;
+}
+.header {
+  width: 100%;
+  position: relative;
+  height: 140rpx;
+  background-color: #46c7a9;
+}
+.header .header-title-common {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  margin-top: 50rpx;
+}
+.header .header-title-common ._b {
+  font-size: 48rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: white;
+}
+.header .header-title-common ._p:first-child {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  border-bottom: 5rpx solid white;
+  border-left: 5rpx solid white;
+  width: 20rpx;
+  height: 20rpx;
+  position: absolute;
+  left: 0;
+}
+image {
+  display: flex;
+  flex-shrink: 0;
+}
+.btn-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150rpx;
+  color: #46c7a9;
+}
+.btn-box ._p {
+  background-color: white;
+  width: 600rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  border-radius: 20rpx;
+  font-size: 42rpx;
+  color: #222;
+}
+@keyframes blink {
+0% {
+    opacity: 1;
+}
+50% {
+    opacity: 0.5;
+}
+50.01% {
+    opacity: 0;
+}
+100% {
+    opacity: 0;
+}
+}
+/* 添加兼容性前缀 */
+@-webkit-keyframes blink {
+0% {
+    opacity: 1;
+}
+50% {
+    opacity: 0.5;
+}
+50.01% {
+    opacity: 0;
+}
+100% {
+    opacity: 0;
+}
+}
+/* 定义blink类*/
+.blink {
+  animation: blink 1s linear infinite;
+  /* 其它浏览器兼容性前缀 */
+  -webkit-animation: blink 1s linear infinite;
+  -moz-animation: blink 1s linear infinite;
+  -ms-animation: blink 1s linear infinite;
+  -o-animation: blink 1s linear infinite;
+  color: #fff;
+  text-align: center;
+}
+

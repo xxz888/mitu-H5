@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "pick-regions": "/components/pick-regions/pick-regions",
+    "w-compress": "/components/w-compress/w-compress"
+  }
+}

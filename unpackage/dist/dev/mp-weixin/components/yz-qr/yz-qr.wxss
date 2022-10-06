@@ -1,0 +1,9 @@
+
+.qrcode {
+	/* padding: 24rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center; */
+}
+
+

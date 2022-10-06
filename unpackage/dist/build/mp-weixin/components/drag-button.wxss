@@ -1,0 +1,1 @@
+.drag{display:flex;justify-content:center;align-items:center;background-color:rgba(0,0,0,.5);box-shadow:0 0 6rpx rgba(0,0,0,.4);color:#fff;width:90rpx;height:90rpx;border-radius:50%;font-size:12px;position:fixed;z-index:999999}.drag.transition{transition:left .3s ease,top .3s ease}

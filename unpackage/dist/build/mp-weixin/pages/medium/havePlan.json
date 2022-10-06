@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "reserve-date": "/components/reserve-date/reserve-date",
+    "pick-regions": "/components/pick-regions/pick-regions"
+  }
+}

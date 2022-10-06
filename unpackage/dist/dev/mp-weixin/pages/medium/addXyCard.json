@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "w-compress": "/components/w-compress/w-compress"
+  }
+}

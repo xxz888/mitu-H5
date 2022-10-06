@@ -1,0 +1,7 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "pick-regions": "/components/pick-regions/pick-regions"
+  }
+}

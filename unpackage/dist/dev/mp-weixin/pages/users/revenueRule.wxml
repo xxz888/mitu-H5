@@ -1,0 +1,1 @@
+<view class="container"><view class="head"><image src="../../static/gz.png" mode="widthFix"></image></view><view data-event-opts="{{[['tap',[['bank',['$event']]]]]}}" class="v1" bindtap="__e"></view></view>

@@ -1,0 +1,9 @@
+{
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "step1": "/components/step1",
+    "step2": "/components/step2",
+    "step3": "/components/step3"
+  }
+}

@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/yz-qr/yz-qr"],{"05f5":function(t,e,n){},"7e71":function(t,e,n){"use strict";n.r(e);var a=n("ac3a"),c=n("cf1c");for(var r in c)"default"!==r&&function(t){n.d(e,t,(function(){return c[t]}))}(r);n("a614");var o,i=n("f0c5"),u=Object(i["a"])(c["default"],a["b"],a["c"],!1,null,null,null,!1,a["a"],o);e["default"]=u.exports},"8f34":function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a=n("849c"),c={data:function(){return{bgc:"rgba(200, 200, 200, 0.1)",canvasQrPath:""}},props:{text:{type:String,default:"hello"},size:{type:Number,default:340},colorDark:{type:String,default:"#000000"},colorLight:{type:String,default:"#ffffff"}},created:function(){var t=this;setTimeout((function(){t.couponQrCode()}),50)},methods:{couponQrCode:function(){var e=this;new a("couponQrcode",{text:this.text,width:this.size,height:this.size,showLoading:!0,loadingText:"二维码生成中",colorDark:this.colorDark,colorLight:this.colorLight,correctLevel:a.CorrectLevel.H,usingIn:this}),t.canvasToTempFilePath({canvasId:"couponQrcode",success:function(t){e.canvasQrPath=t.tempFilePath}},this),this.$emit("update:canvasQrPath",e.canvasQrPath)}}};e.default=c}).call(this,n("543d")["default"])},a614:function(t,e,n){"use strict";var a=n("05f5"),c=n.n(a);c.a},ac3a:function(t,e,n){"use strict";var a;n.d(e,"b",(function(){return c})),n.d(e,"c",(function(){return r})),n.d(e,"a",(function(){return a}));var c=function(){var t=this,e=t.$createElement;t._self._c},r=[]},cf1c:function(t,e,n){"use strict";n.r(e);var a=n("8f34"),c=n.n(a);for(var r in a)"default"!==r&&function(t){n.d(e,t,(function(){return a[t]}))}(r);e["default"]=c.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/yz-qr/yz-qr-create-component',
+    {
+        'components/yz-qr/yz-qr-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("7e71"))
+        })
+    },
+    [['components/yz-qr/yz-qr-create-component']]
+]);
